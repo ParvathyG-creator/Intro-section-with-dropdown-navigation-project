@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="project-navigation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+<nav>      
+    <a href ="/" class="logo">
+      <img src = "images/logo.svg" alt="Logo">
+      </a>
+    <a href="#" class="menu">
+      <img src ="images/icon-menu.svg" alt ="Open Menu">
+    </a>      
+  <div class="nav-list">    
+    <div class="dropdown">
+      <a class="dropbtn">
+        Features<button><img class ="arrow" src="images/icon-arrow-down.svg" alt =""></button>
+      </a>
+      <div class="dropdown-content">  
+        <a href="#"><img src="images/icon-todo.svg" alt=""> To Do List</a>
+        <a href="#"><img src="images/icon-calendar.svg" alt=""> Calendar</a>
+        <a href="#"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+        <a href="#"><img src="images/icon-planning.svg" alt="">Planning</a>
+      </div>
+    </div>
+    
+
+    <div class="dropdown">
+      <a class="dropbtn">
+        Company<button><img class ="arrow"src ="images/icon-arrow-down.svg" alt =""></button>
+      </a>
+      <div class="dropdown-content">
+        <a href="#">History</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <a href="#">Careers</a>
+    <a href="#">About</a>
+  </div>
+  <div class ="nav-btns"> 
+    <button>Login</button>
+    <button>Register</button>
+  </div>
+          
+</nav>
+<div class = "phone">
+  <div class ="nav">
+    <img src ="images/icon-close-menu.svg" id="close-menu">
+    <div class="mobile-nav-list">    
+      <div class="dropdown">
+        <div class="dropbtn">
+          Features<img src="images/icon-arrow-up.svg" alt ="Arrow Up">
+        </div>
+        <div class="dropdown-content">  
+          <a href="#"><img src="images/icon-todo.svg" alt=""> To Do List</a>
+          <a href="#"><img src="images/icon-calendar.svg" alt="" > Calender </a>          
+          <a href="#"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+          <a href="#"><img src="images/icon-planning.svg" alt="">Planning</a>
+        </div>
+      </div>
+      
+
+      <div class="dropdown">
+        <div class="dropbtn">
+          Company<img src ="images/icon-arrow-up.svg" alt ="Arrow Up">
+        </div>
+        <div class="dropdown-content">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+    <a href="#">Careers</a>
+    <a href="#">About</a>
+    
+    <div class="new-navbtn" > 
+      <button>Login</button>
+      <button>Register</button>
+    </div>
+    </div>
+  </div>
+
+</div>
+  
+<div class="hero-image">
+  <div class ="main"> 
+    <h1> Make<br>Remote Work</h1>
+    <p id = "para">
+  Get your team in sync, no matter your location.Streamline processes,
+  create team rituals, and watch productivity soar.
+    </p>
+    <button>Learn More</button>
+    <div class="imagesnew">
+    <img src ="images/client-databiz.svg">
+    <img src="images/client-audiophile.svg">
+    <img src="images/client-meet.svg">
+    <img src ="images/client-maker.svg">
+    </div>
+  </div>
+   <div class="img-container">
+    <img src="images/image-hero-desktop.png" alt="">
+  </div>
+</div>   
+<script src="trial.js"></script>
+</body>
+</html>
